@@ -1,0 +1,32 @@
+{
+  GUIDE=[
+  BlogPost
+  {
+    title=
+    'title4',
+    author=
+    'author4',
+    type=GUIDE,
+    likes=45
+  },
+  BlogPost
+  {
+    title=
+    'title7',
+    author=
+    'author7',
+    type=GUIDE,
+    likes=450
+  },
+  BlogPost
+  {
+    title=
+    'title3',
+    author=
+    'author3',
+    type=GUIDE,
+    likes=55
+  }
+],
+REVIEW=[BlogPost{title='title2', author='author2', type=REVIEW, likes=52}, BlogPost{title='title8', author='author8', type=REVIEW, likes=200}], NEWS=[BlogPost{title='title1', author='author1', type=NEWS, likes=50}, BlogPost{title='title6', author='author6', type=NEWS, likes=500}]
+}
