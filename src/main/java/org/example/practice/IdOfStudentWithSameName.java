@@ -50,6 +50,7 @@ public class IdOfStudentWithSameName {
                 .filter(e -> e.getValue().size() > 1)
                 .flatMap(e -> e.getValue().stream())
                 .map(Student::getId)
+                .sorted()
                 .collect(Collectors.toList());
     }
 
